@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom'
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
-import RouterConfig from './components/RouterConfig'
+import RouterConfig from './router'
+require('./mock')
+
 ReactDOM.render(
     <BrowserRouter>
         <RouterConfig />
