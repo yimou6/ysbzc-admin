@@ -31,6 +31,7 @@ class Aside extends Component {
 
     render() {
         return <div className="aside" style={this.state.asideStyle}>
+            <div className="aside-logo"></div>
             <Menu mode="inline"
                   theme="dark"
                   defaultSelectedKeys={this.state.defaultSelectedKeys}

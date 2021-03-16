@@ -10,6 +10,10 @@
     background-color: #001529;
     height: 100%;
     transition: width 0.4s cubic-bezier(0.2, 0, 0, 1);
+
+    .aside-logo {
+      height: 50px;
+    }
   }
 
   .container {
